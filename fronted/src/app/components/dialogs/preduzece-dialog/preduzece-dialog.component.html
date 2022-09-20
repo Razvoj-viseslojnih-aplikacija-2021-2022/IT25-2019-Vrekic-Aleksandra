@@ -24,7 +24,7 @@
       </mat-form-field>
     </div>
     <div mat-dialog-actions>
-        <button mat-button *ngIf="flag==1" type="submit" [mat-dialog-close]="1" (click)="addPreduzece" [disabled]="!formControl.valid">
+        <button mat-button *ngIf="flag==1" type="submit" [mat-dialog-close]="1" (click)="addPreduzece()" [disabled]="!formControl.valid">
             Sačuvaj
         </button>
         <button mat-button *ngIf="flag==2" type="submit" [mat-dialog-close]="1" (click)="updatePreduzece()" [disabled]="!formControl.valid">

@@ -25,10 +25,10 @@ export class PreduzeceDialogComponent implements OnInit {
   public addPreduzece(): void {
     this.preduzeceService.addPreduzece(this.data).subscribe(() => {
       this.snackBar.open('Uspešno dodato preduzece ' + this.data.naziv, 'OK', {duration:2500});
-    }, (error:Error) => {
+    }), (error:Error) => {
       this.snackBar.open('Došlo je do greške prilikom dodavanja novog preduzece',
       'Zatvori', {duration: 2500});
-    });
+    };
   }
 
   public updatePreduzece(): void {
