@@ -9,6 +9,13 @@
   margin-top: 8px;
 }
 
+.search-field{
+  align-self: center;
+  width: 480px;
+}
+
+
+
 .no-result {
   display: flex;
   justify-content: center;
@@ -39,9 +46,4 @@
 
 .title-center {
   margin: 0 auto;
-}
-
-.search-field{
-  left: 900px;
-  width: 220px;
 }
